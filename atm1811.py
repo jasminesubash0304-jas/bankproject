@@ -15,18 +15,6 @@ pin=int(input("enter the pin:"))
 if pin==9596:
     
     
-    while True:
-       
-        if choice==1:
-            check_balance()
-        elif choice==2:
-            check_deposit()
-        elif choice==3:
-            check_withdrawal()
-        elif choice==4:
-            break
-        else:
-            ("invalid")
-        
+    
 else:
     print("pin is not valid")
