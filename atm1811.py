@@ -16,7 +16,7 @@ if pin==9596:
     
     
     while True:
-       
+        choice=int(input("enter the number:"))
         if choice==1:
             check_balance()
         elif choice==2:
